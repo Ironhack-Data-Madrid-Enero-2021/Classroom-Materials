@@ -11,6 +11,7 @@
 ## Git vs GitHub
 As git is the program that allows for version control and tracking, GitHub is a hosting (storage) service for git based repositories.
 
+
 ## Terminology
 - `repository` | `repo` : storage location for a software package ("a folder with git monitoring")
 - `untracked` : a file or directory not monitored by git, does not belong to the repo
@@ -82,7 +83,10 @@ Next...
 Next...
 
 `git branch`
-- ?
+- Lists all branchs on current repo
+
+`git branch <name>`
+- Creates a branch of given name
 
 `git checkout`
 - ?
