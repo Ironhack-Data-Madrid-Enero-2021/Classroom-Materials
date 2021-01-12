@@ -32,13 +32,9 @@ Every commit has a unique id and must have a commit message. The more descriptiv
         develop_test/ `# git ignores directory with specific name and all it's content. Mind the / after the name.` 
 
         *.jpg `# git ignores all files with given extension` 
-
-
-Next...
-
-- `branch` : ? 
-- `merge` : ?
-- `pull request` : ? 
+- `branch` : the different `timelines` of a repository. It allows for parallel development. 
+- `merge` : joining the changes of a branch into another. It is the opposite of forking, instead of separating, it unites two "timelines"
+- `pull request` : the act of asking the owner of a repository to merge the changes on your fork/branch. It is literally the request for him to `pull` your changes.
 
 ## Commands
 
@@ -80,22 +76,20 @@ Next...
 - e.g.: `git push origin master`
 - Sends changes from local repo to `remote` `branch`
 
-Next...
-
 `git branch`
 - Lists all branchs on current repo
 
 `git branch <name>`
 - Creates a branch of given name
 
-`git checkout`
-- ?
+`git checkout <branch>`
+- Changes the active branch to the one given. It is how you change between branches, but only one can be active at a single time.
 
-`git checkout -b`
-- ?
+`git checkout -b <branch>`
+- Creates and checkouts to a new branch with a single command.
 
 `git merge <branch>`
-- ?
+- Brings in changes from \<branch\> to current one.
 
 ## Tips
 - Explicity declare all files/directories/remotes/branches while learning git
