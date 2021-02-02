@@ -1,0 +1,10 @@
+2021-02-02 16:06:24.577085
+could not convert string to float: 'ocho'
+  File "<ipython-input-24-d9db600a0066>", line 10, in <module>
+    students[k] = float(grade)
+--------------------------------------------------
+2021-02-02 16:06:31.342611
+could not convert string to float: '9.8.8'
+  File "<ipython-input-24-d9db600a0066>", line 10, in <module>
+    students[k] = float(grade)
+--------------------------------------------------
