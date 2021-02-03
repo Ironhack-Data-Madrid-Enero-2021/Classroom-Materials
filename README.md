@@ -2,7 +2,9 @@
 
 Teaching materials for the Full Time Data Analytics Bootcamp January-March 2021  
 
-Teachers:
- * Felipe Ferrero
- * Manuel López Sheriff
+Authors:
+ * Felipe Ferrero [@ferrero-felipe](https://github.com/ferrero-felipe)
+ * Manuel López Sheriff [@sheriffff](https://github.com/sheriffff)
+ * Amanda Galvez [@agalvezcorell](https://github.com/agalvezcorell)
+ * Fernando Costa [@breogann](https://github.com/breogann)
 
