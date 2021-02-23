@@ -1,0 +1,5 @@
+Source,Target,Type,weight
+1,2,Undirected,1
+1,3,Undirected,1
+2,3,Undirected,1
+2,4,Undirected,1
