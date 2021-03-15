@@ -4,3 +4,7 @@ __pycache__
 my_news_key.txt
 
 .env
+*.hdf5
+*.h5
+*.parquet
+*.log
