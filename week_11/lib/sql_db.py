@@ -15,7 +15,7 @@ class ToSQL:
         self.Table=Table
         self.motor=create_engine(str_conn)
         self.sesion=sessionmaker(bind=self.motor)()
-        self.motor.execute(DDL(f'create schema if not exists {self.schema}'))
+
 
     
     def crea_tablas(self):
